@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+      title:{
+        text: "Top Oil Reserves"
+      },
+      data: [
+
+      {
+        dataPoints: [
+        { x: 1, y: 297571, label: "Venezuela"},
+        { x: 2, y: 267017,  label: "Saudi" },
+        { x: 3, y: 175200,  label: "Canada"},
+        { x: 4, y: 154580,  label: "Iran"},
+        { x: 5, y: 116000,  label: "Russia"},
+        { x: 6, y: 97800, label: "UAE"},
+        { x: 7, y: 20682,  label: "US"},
+        { x: 8, y: 20350,  label: "China"}
+        ]
+      }
+      ]
+    });
+
+    chart.render();
+  }
+  </script>
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script></head>
+</head>
+
+<body style="overflow-x: hidden;">
+
+    <!-- Start your project here-->
+    
+
+
+ <!--Section: Team v.3-->
+ <section class="team-section pb-4">
+        
+        <!--Section heading-->
+        <h2 class="h1 text-center py-5">Research Work</h2>
+        <!--Section description-->
+        
+        <p class="grey-text pb-5 text-center">I have not done anything.</p>
+        
+
+        <!--Grid row-->
+        
+
+    </section>
+    <!--Section: Team v.3-->
+    <h2>Real Time Value</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>PH</th>
+    <th>TURBIDITY</th> 
+    <th>TEMPRATURE</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+   <div id="chartContainer" style="height: 300px; width: 100%;">
+   </div>
+
+
+
+
+ <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  </body>
+  </html>
